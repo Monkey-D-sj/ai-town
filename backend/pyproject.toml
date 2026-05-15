@@ -5,5 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "dashscope>=1.25.18",
     "fastapi[standard]>=0.136.1",
+    "openai>=2.36.0",
 ]
